@@ -1,10 +1,8 @@
-module.exports =function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
 
-
+    hope = bracketsConfig;
     var start = [];
     var end = [];
-
-    var hope = [['(', ')'], ['[', ']']];
 
     // VVOD
     for (i = 0; i < hope.length; i++) {
